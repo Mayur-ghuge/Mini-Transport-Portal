@@ -1,0 +1,79 @@
+/* Wrapper for background */
+.signup-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  background-color: #f0f4ff; /* fallback color */
+}
+
+/* Background image with blur */
+.signup-page::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("https://thumbs.dreamstime.com/b/transport-logistics-background-trucks-highway-fields-transport-logistics-background-trucks-highway-145988898.jpg")
+    no-repeat center center/cover;
+  filter: blur(8px);
+  opacity: 0.6;
+  z-index: 0;
+}
+
+/* Signup box stays sharp above blur */
+.signup-box {
+  position: relative;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.signup-box h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 24px;
+}
+
+/* Inputs */
+.signup-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: border 0.3s;
+}
+
+.signup-box input:focus {
+  border-color: #4a90e2;
+  outline: none;
+}
+
+/* Button */
+.signup-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: linear-gradient(135deg, #4a90e2, #357abd);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.signup-box button:hover {
+  background: linear-gradient(135deg, #357abd, #2a5d9f);
+}

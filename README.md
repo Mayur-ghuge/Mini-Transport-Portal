@@ -21,6 +21,20 @@ This project demonstrates a complete full-stack web application with authenticat
 ✔️ Modern UI with React + CSS
 ✔️ Secure backend built with Spring Boot
 
+🎯 Benefits
+
+🌾 For Farmers
+
+- Easy access to nearby mini-transport vehicles
+- Saves time during crop movement
+- Cost-effective and fast service
+
+🚚 For Vehicle Owners
+
+- Showcase their vehicles
+- Get more bookings
+- Grow their transport business
+
 🛠️ Tech Stack
 Frontend :- React,HTML,CSS,JavaScript
 
@@ -109,6 +123,15 @@ Feedback APIs
 ### 🔹 Feedback Page
 ![Feedback Page](assets/screenshots/img5.png)
 
+🚀 Future Enhancements
+
+✨ Planned features to improve the platform:
+🔍 Advanced search filters (price, distance, availability)
+📱 Mobile app version
+🧾 Booking system for customers
+🗺️ Live vehicle tracking using GPS
+🧑‍🌾 Separate dashboard for farmers and vehicle owners
+📊 Analytics dashboard for admin
 
 
 
